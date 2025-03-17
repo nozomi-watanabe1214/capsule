@@ -6,8 +6,11 @@ public class Capsule {
 		// TODO 自動生成されたメソッド・スタブ
 		
 		Person taro = new Person("山田太郎",20);
-		System.out.println(taro.name);
-		System.out.println(taro.age);
+		System.out.println(taro.getName());
+		
+		taro.setName("花子");
+		
+		System.out.println(taro.getName());
 		}
 	}
 
